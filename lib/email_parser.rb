@@ -9,7 +9,6 @@ class EmailAddressParser
     email_array = []
     email_array << string.split(" ", ",")
     email_array
-
   end
 
 end
