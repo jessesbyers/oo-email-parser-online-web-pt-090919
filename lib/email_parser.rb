@@ -6,7 +6,7 @@ class EmailAddressParser
   end
 
   def parse
-    string.gsub(",", " ")
+    string.gsub(",", " ").split.uniq
   end
 
 end
