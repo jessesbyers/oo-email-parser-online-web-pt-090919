@@ -6,8 +6,7 @@ class EmailAddressParser
   end
 
   def parse
-    email_array = []
-    email_array << @string.to_a
+    @string.to_a
   end
 
 end
