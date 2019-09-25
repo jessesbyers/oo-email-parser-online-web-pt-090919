@@ -5,7 +5,7 @@ class EmailAddressParser
     parse(string)
   end
 
-  def parse(string)
+  def self.parse
     string.to_a
   end
 
