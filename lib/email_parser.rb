@@ -8,7 +8,6 @@ class EmailAddressParser
   def parse
     string.gsub(",", " ").split.uniq
   end
-
 end
 
 
