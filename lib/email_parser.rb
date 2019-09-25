@@ -1,14 +1,9 @@
 class EmailAddressParser
   attr_accessor :string
 
-  def initialize
-     string
+  def initialize(string)
+     @string = string
   end
-#  attr_reader :string
-
-  # def initialize(string)
-  #    @string = string
-  # end
 
   def parse
     string.gsub(",", " ").split.uniq
