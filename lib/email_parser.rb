@@ -2,10 +2,10 @@ class EmailAddressParser
   attr_accessor :string
 
   def initialize
-    parse(string)
+    string
   end
 
-  def self.parse
+  def parse
     string.to_a
   end
 
