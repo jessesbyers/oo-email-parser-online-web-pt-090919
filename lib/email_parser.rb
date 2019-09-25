@@ -1,8 +1,8 @@
 class EmailAddressParser
   attr_accessor :string
 
-  def initialize(string)
-    parse
+  def initialize
+    parse(string)
   end
 
   def parse(string)
