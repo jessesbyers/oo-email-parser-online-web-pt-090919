@@ -6,8 +6,8 @@ class EmailAddressParser
   end
 
   def parse
-    array = @string.to_a
-    array
+    string.split
+    
   end
 
 end
