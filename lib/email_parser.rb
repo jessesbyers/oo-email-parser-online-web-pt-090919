@@ -2,11 +2,11 @@ class EmailAddressParser
   attr_accessor :string
 
   def initialize(string)
-    string
+    @string = string
   end
 
   def parse
-    array = self.to_a
+    array = string.to_a
     array
   end
 
