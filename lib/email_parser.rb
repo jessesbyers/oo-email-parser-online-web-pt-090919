@@ -6,7 +6,9 @@ class EmailAddressParser
   end
 
   def parse
-    string.split(" ", ",")
+    email_array = []
+    email_array << string.split(" ", ",")
+    email_array
 
   end
 
