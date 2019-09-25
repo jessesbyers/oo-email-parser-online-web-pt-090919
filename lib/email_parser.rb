@@ -1,5 +1,7 @@
 class EmailAddressParser
-  
+  def initialize(string)
+  end
+
 end
 
 
