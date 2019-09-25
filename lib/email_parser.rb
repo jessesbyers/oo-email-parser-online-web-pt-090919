@@ -5,10 +5,9 @@ class EmailAddressParser
     string
   end
 
-  def parse
+  def self.parse
     array = string.to_a
-    array
-    
+    array    
   end
 
 end
